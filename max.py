@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-st.markdown("<h1 style='text-align: center; color:black;'>Ecuaciones de Maxwell</h1>", unsafe_allow_html=True)
-st.title('Ley de Gauss')
+st.title("Ecuaciones de Maxwell")
+st.subheader('Ley de Gauss')
 st.latex(r'''
     \overrightarrow{\nabla}* \overrightarrow{E} = \frac{\rho}{\epsilon_0}   
  ''')
@@ -10,7 +10,7 @@ o sumideros de campo eléctrico si son negativas, no es otra cosa que decir en t
 que cargas del mismo signo repelen y de distinto atraen.
 Captura que el campo eléctrico decae con la distancia y lo hace
 de una manera muy precisa: con el cuadrado de la distancia.""")
-st.title('¿Para que sirve?')
+st.subheader('¿Para que sirve?')
 st. write ("""La ley de gauss tiene su máxima utilidad para calcular el campo eléctrico en situaciones donde
 la distribución de carga tiene simetría esférica, cilíndrica o está distribuida uniformemente en un plano o en una placa infinita.""")
 st.image("images.png","SUPERFICIE CILIDRICA.png") 
@@ -40,7 +40,7 @@ una sumatoria la sumatoria de los productos de las áreas de estos pequeños
 elementos del ts por el campo eléctrico que atraviesa cada uno de esos elementos así el vector que va a tener como módulo el área superficial de ese elemento y ese vector va a ser normal a la superficie va a ser perpendicular y va a
 formar un ángulo con el campo eléctrico.""")
 st.image("Imagen7.png")
-st.title('Ley de Gauss para el magnetismo')
+st.subheader('Ley de Gauss para el magnetismo')
 st.latex(r'''
     \overrightarrow{\nabla}* \overrightarrow{B} = 0 
  ''')
@@ -54,7 +54,7 @@ Por ejemplo, si intentas partir un imán en dos queriendo separarlo en dos monop
 el campo se cierra en la zona que has cortado, devolviendote dos imanes con dos polos cada
 uno. 
 En nuestro mundo los monopolos son imposibles (si existieran las ecuaciones de Maxwell podrian ser expresadas en una sola ecuación.""")
-st.title('Ley de Faraday y Lenz')
+st.subheader('Ley de Faraday y Lenz')
 st.latex(r'''
     \overrightarrow{\nabla}* \overrightarrow{E} = -\frac{\partial \overrightarrow{B}}{\partial t}   
  ''')
