@@ -13,7 +13,8 @@ de una manera muy precisa: con el cuadrado de la distancia.""")
 st.subheader('¿Para que sirve?')
 st. write ("""La ley de gauss tiene su máxima utilidad para calcular el campo eléctrico en situaciones donde
 la distribución de carga tiene simetría esférica, cilíndrica o está distribuida uniformemente en un plano o en una placa infinita.""")
-st.image("images.png","SUPERFICIE CILIDRICA.png") 
+st.image("images.png")
+st.image("SUPERFICIE CILIDRICA.png")
 st. write ("""Se determina la dirección del campo eléctrico a partir de la
 simetría de la distribución de carga (de la forma de la superfie) uniforme en estos cuerpos
 simétricos y también su magnitud.
@@ -34,7 +35,8 @@ el vector normal n
 superficie y forma un ángulo de 90
 grados con la superficie). Esto cuando 
 es uniforme y la superficie es plana.""") 
-st.image("Imagen4.png","Imagen5.png")
+st.image("Imagen4.png")
+st.image("Imagen5.png")
 st. write ("""El flujo eléctrico en una superficie general irregular la cual tiene partes curvas es atravesado por infinitas líneas de campo eléctrico, para calcular el flujo eléctrico en este caso tendríamos que dividir la superficie en un gran número de pequeños elementos de área superficial del ts y en este caso el flujo eléctrico sería
 una sumatoria la sumatoria de los productos de las áreas de estos pequeños
 elementos del ts por el campo eléctrico que atraviesa cada uno de esos elementos así el vector que va a tener como módulo el área superficial de ese elemento y ese vector va a ser normal a la superficie va a ser perpendicular y va a
